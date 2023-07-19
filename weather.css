@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@700&family=Ubuntu+Condensed&display=swap');
+
+body{
+    height: 800px;
+    background-color: blueviolet;
+    background-image: linear-gradient(to bottom right, blue, rgb(255, 94, 0));
+}
+
+section{
+    display: grid;
+    background-color: blueviolet;
+    background-image: linear-gradient(to right bottom,rgb(0, 204, 255), rgb(132, 0, 255));
+    grid-template-areas: 'myarea';
+    gap: 20px;
+    border: 2px solid;
+    border-radius: 25px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10%;
+
+}
+
+h1{
+    font-family: 'Signika', sans-serif;
+  
+    grid-column: 1;
+    text-align: center;
+    margin-top: 50px;
+}
+.outcome{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    grid-column: 1 ;
+    text-align: center;
+}
+.get-weather{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    display: grid;
+    grid-column: 1;
+    text-align: center;
+    gap: 30px;
+    margin-bottom: 50px;
+    
+   
+}
+
+#city{
+    grid-column: 1;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 12px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+#country{
+    grid-column: 1;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 12px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+#GW{  
+    font-family: 'Ubuntu Condensed', sans-serif;  
+    grid-column: 1;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 12px;
+
+}
+#GW:hover{
+    background-color: #053f5a; 
+    color: black; 
+    border: 2px solid #4CAF50;
+}

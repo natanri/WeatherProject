@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <script src="./weather.js" defer></script>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <section class="weather-container">
+        <h1>Search Weather</h1>
+        <div class="outcome">
+            <p>Add city and country</p>
+            <!--<h5>Weather of Bogota</h5>
+            <img src="" alt="">
+            <h2>28°C</h2>
+            <p>Max: 29°C</p>
+            <p>Min: 27°C</p>-->
+        </div>
+        <form action="" method="POST" class="get-weather">
+            <input type="text" name="city" id="city" placeholder="Enter a city">
+            <select name="" id="country">
+                <option disabled selected value="">Select a country</option>
+                <option value="AR">Argetina</option>
+                <option value="CO">Colombia</option>
+                <option value="ES">Spain</option>
+                <option value="US">United States</option>
+                <option value="MX">Mexico</option>
+                <option value="PE">Peru</option>
+                <option value="CA">Canada</option>
+            </select>
+            <input type="submit" name="" id="GW" value="Get Weather">
+        </form>
+    </section>
+    
+</body>
+</html>
+
